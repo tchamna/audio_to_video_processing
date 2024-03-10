@@ -1,0 +1,15 @@
+*.log
+venv/
+Python_Scripts_Resulam_Phrasebooks_Audio_Processing/.ipynb_checkpoints/
+Python_Scripts_Resulam_Phrasebooks_Audio_Processing/venv_phrasebook/
+
+*.txt
+Datalogger/
+phrasebook_venv/
+temp/
+gen_raw_data/
+gen_junk_files/
+gen_archive/
+__pycache__/
+.ipynb_checkpoints/
+Github_Automation_Private/
