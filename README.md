@@ -11,6 +11,13 @@ This script is designed for processing the audio and producing videos for phrase
 "1965-1999": "Chap31",
 "2000-2044": "Chap32"
 
+## Required Tools/Software:
+
+- **Pillow 9.4.0**: Newer versions may not be compatible with the scripts.
+- **Python 3.11**: Newer versions may not be compatible with the scripts.
+- **Install ImageMagick:** : ImageMagick-7.1.1-29-Q16-HDRI-x64-dll: https://imagemagick.org/script/download.php 
+- **ffmpeg**: https://www.gyan.dev/ffmpeg/builds/
+
 ## 0. How to Setup the Environment
 
 To prepare your environment for the project, follow these steps:
@@ -30,12 +37,8 @@ To prepare your environment for the project, follow these steps:
 2. **Activate the Environment**: Activate the newly created environment by running:
 **venv_phrasebook\Scripts\activate**
 
-1. **Pillow Installation**: Ensure you have the specific version of the Pillow library available:
-**Pillow-9.4.0-cp311-cp311-win_amd64.whl**
 
-Note: This project uses **Pillow 9.4.0.** Newer versions may not be compatible with the scripts.
-
-5. **Install Requirements**: Install all required packages listed in `requirements_video_production.txt` within the activated environment:
+1. **Install Requirements**: Install all required packages listed in `requirements_video_production.txt` within the activated environment:
 **pip install -r requirements_video_production.txt**
 
 
