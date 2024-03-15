@@ -14,9 +14,11 @@ This script is designed for processing the audio and producing videos for phrase
 ## Required Tools/Software:
 
 - **Pillow 9.4.0**: Newer versions may not be compatible with the scripts.
-- **Python 3.11**: Newer versions may not be compatible with the scripts.
+- **Python 3.11**: I tested with Python 3.11.5: https://www.python.org/downloads/release/python-3115/. Newer versions may not be compatible with the scripts.
 - **Install ImageMagick:** : ImageMagick-7.1.1-29-Q16-HDRI-x64-dll: https://imagemagick.org/script/download.php 
 - **ffmpeg**: https://www.gyan.dev/ffmpeg/builds/
+
+![Alt text](image-3.png)
 
 ## 0. How to Setup the Environment
 
