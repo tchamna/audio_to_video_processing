@@ -5,8 +5,11 @@ venv/
 /Python_Scripts_Resulam_Phrasebooks_Audio_Processing/.ipynb_checkpoints/
 
 *.txt
-padded_audio_dir/
-bilingual_sentences/
+
+/Languages/*/bilingual_sentences/
+/Languages/*/padded_audio_dir/
+
+
 phrasebook_venv/
 temp/
 __pycache__/
