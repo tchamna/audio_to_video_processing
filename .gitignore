@@ -15,3 +15,5 @@ __pycache__/
 .ipynb_checkpoints/
 Github_Automation_Private/
 !requirements_video_production.txt
+!*english_french_phrasebook_sentences_list.txt
+
