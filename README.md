@@ -44,6 +44,8 @@ Note: This project uses **Pillow 9.4.0.** Newer versions may not be compatible w
 
 10. **Unzip the File and Extract It**: Navigate to the folder ending with `-full_build\bin`. Copy the content, create a directory called `ffmpeg` under `Program Files`, and paste all the content of the `bin` directory there. The path should look like `C:\Program Files\ffmpeg`.
 
+![image](https://github.com/tchamna/audio_to_video_processing/assets/6007035/b42c4c0a-bca8-4fd8-83cd-892facbd8882)
+
 By following these steps, your environment should be correctly set up to execute the project scripts.
 
 
@@ -113,6 +115,7 @@ The video production script is designed to:
 - Allow customization of the starting sentence for video production via the `start_build_num` variable.
 - Among many other thing
 
+![image](https://github.com/tchamna/audio_to_video_processing/assets/6007035/3433de0d-ec39-4c9a-bce0-5c0ae9dd80fa)
 
 
 [Amazon link to the book series](https://www.amazon.com/dp/B099TNLQL2)
