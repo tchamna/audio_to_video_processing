@@ -5,12 +5,10 @@ venv/
 /Python_Scripts_Resulam_Phrasebooks_Audio_Processing/.ipynb_checkpoints/
 
 *.txt
-Datalogger/
+padded_audio_dir/
+bilingual_sentences/
 phrasebook_venv/
 temp/
-gen_raw_data/
-gen_junk_files/
-gen_archive/
 __pycache__/
 .ipynb_checkpoints/
 Github_Automation_Private/
