@@ -1,5 +1,6 @@
 *.log
 venv/
+mini_venv/
 /Python_Scripts_Resulam_Phrasebooks_Audio_Processing/venv_phrasebook/
 
 /Python_Scripts_Resulam_Phrasebooks_Audio_Processing/.ipynb_checkpoints/
