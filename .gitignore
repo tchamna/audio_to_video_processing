@@ -1,5 +1,6 @@
 *.log
 venv/
+venv311/
 mini_venv/
 /Python_Scripts_Resulam_Phrasebooks_Audio_Processing/venv_phrasebook/
 

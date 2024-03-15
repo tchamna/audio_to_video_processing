@@ -15,14 +15,22 @@ This script is designed for processing the audio and producing videos for phrase
 
 To prepare your environment for the project, follow these steps:
 
-1. **Python Installation**: Install Python 3.11 and ensure it is added to your environment variables. If you have multiple versions of Python installed, make sure version 3.11 is the one used for this project, as compatibility with other versions is not guaranteed.
+1. **Python Installation**: Ensure Python 3.11 is installed and correctly set up in your environment variables. This project specifically requires Python 3.11; other versions might not be compatible. 
+   - To verify the installation path of Python 3.11, execute the command `where python` in your terminal. This command will display the full path to the Python executable. 
+   - Utilize the identified path to establish your virtual environment for the project. For instance, if the path is `C:\Users\deusi\AppData\Local\Programs\Python\Python311\python.exe`, you can create a virtual environment named `venv311` by running the following command:
+     ```
+     C:\Users\deusi\AppData\Local\Programs\Python\Python311\python.exe -m venv venv311
+     ```
 
-2. **Create a New Environment**: Navigate to the **`Python_Scripts_Resulam_Phrasebooks_Audio_Processing`** directory and create a new virtual environment with the following command: **python -m venv venv_phrasebook**
 
-3. **Activate the Environment**: Activate the newly created environment by running:
+![Alt text](image-2.png)
+
+1. **Create a New Environment**: Navigate to the **`Python_Scripts_Resulam_Phrasebooks_Audio_Processing`** directory and create a new virtual environment with the following command: **python -m venv venv_phrasebook**
+
+2. **Activate the Environment**: Activate the newly created environment by running:
 **venv_phrasebook\Scripts\activate**
 
-4. **Pillow Installation**: Ensure you have the specific version of the Pillow library available:
+1. **Pillow Installation**: Ensure you have the specific version of the Pillow library available:
 **Pillow-9.4.0-cp311-cp311-win_amd64.whl**
 
 Note: This project uses **Pillow 9.4.0.** Newer versions may not be compatible with the scripts.
@@ -45,6 +53,10 @@ Note: This project uses **Pillow 9.4.0.** Newer versions may not be compatible w
 10. **Unzip the File and Extract It**: Navigate to the folder ending with `-full_build\bin`. Copy the content, create a directory called `ffmpeg` under `Program Files`, and paste all the content of the `bin` directory there. The path should look like `C:\Program Files\ffmpeg`.
 
 ![image](https://github.com/tchamna/audio_to_video_processing/assets/6007035/b42c4c0a-bca8-4fd8-83cd-892facbd8882)
+
+11. **Install ImageMagick:**  Go to https://imagemagick.org/script/download.php download and install it.
+    
+![Alt text](image-1.png)
 
 By following these steps, your environment should be correctly set up to execute the project scripts.
 
