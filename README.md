@@ -40,6 +40,10 @@ Note: This project uses **Pillow 9.4.0.** Newer versions may not be compatible w
 
 8. **Select the Kernel**: In the Jupyter Notebook interface, select the kernel named **`venv phrasebook`** that you created for this project.
 
+9. **Download and setup ffmpeg:** Go to the [ffmpeg builds page](https://www.gyan.dev/ffmpeg/builds/) and download the full build of ffmpeg, which is named **ffmpeg-git-full.7z**.
+
+10. **Unzip the File and Extract It**: Navigate to the folder ending with `-full_build\bin`. Copy the content, create a directory called `ffmpeg` under `Program Files`, and paste all the content of the `bin` directory there. The path should look like `C:\Program Files\ffmpeg`.
+
 By following these steps, your environment should be correctly set up to execute the project scripts.
 
 
