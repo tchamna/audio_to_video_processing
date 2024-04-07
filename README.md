@@ -11,6 +11,8 @@ This script is designed for processing the audio and producing videos for phrase
 "1965-1999": "Chap31",
 "2000-2044": "Chap32"
 
+Please note that this pipeline consists of multiple independent modules, each of which can be executed separately provided that the necessary resources (such as audio, text, images, and/or videos) are available for that particular module.
+
 ## Required Tools/Software:
 
 - **Pillow 9.4.0**: Newer versions may not be compatible with the scripts.
@@ -136,4 +138,54 @@ The video production script is designed to:
 
 
 [Amazon link to the book series](https://www.amazon.com/dp/B099TNLQL2)
+
+## 3. Video Chunks Processor (`4_Combine_Videos_in_Chunks.ipynb`)
+
+
+This Python script processes video files stored in chapter directories by grouping them into chunks, inserting an advertisement at a specified position within each chunk, and outputting the combined videos.
+
+## Features
+
+- **Naturally Sorts Videos**: Video files are sorted naturally to maintain logical order.
+- **Handles Special Cases**: Videos prefixed with "no_" are specially handled to maintain their relative order.
+- **Advertisement Insertion**: An advertisement video is inserted at a specified position within each chunk of videos.
+- **Customizable Chunk Size**: The number of videos in each chunk and the position of the advertisement within the chunk can be easily adjusted.
+
+## Dependencies
+
+- **moviepy**: For video processing tasks such as concatenation.
+- **natsort**: For natural sorting of video filenames.
+- **os & random**: For file system navigation and random selection of advertisement videos.
+
+## How to Use
+
+1. **Set Up Your Environment**: Ensure Python is installed on your system and install the required packages using pip:
+
+    ```sh
+    pip install moviepy natsort
+    ```
+
+2. **Organize Your Videos**: Place your video files in chapter directories within a main directory. Name your video files in a way that reflects their desired order.
+
+3. **Prepare Advertisement Videos**: Place your advertisement videos in a separate directory. The script will randomly select an advertisement for each chunk.
+
+4. **Customize the Script**: Adjust the `ads_dir` and `chapters_dir` variables in the script to point to your directories. Set `chunk_size` and `ad_position` as needed.
+
+5. **Run the Script**: Execute the script. It will process each chapter directory, combine videos into chunks, insert advertisements, and output the combined videos.
+
+## Code Structure
+
+- **process_chunk Function**: Takes a chunk of videos, combines them, inserts an advertisement, and outputs the result.
+- **Main Loop**: Iterates through each chapter directory, sorts videos, processes them in chunks, and handles special cases.
+
+## Output
+
+The combined videos are saved in the same directory as the chapter directories, named according to the chapter and chunk number.
+
+## Note
+
+This script is designed for specific use cases and might need adjustments to fit your exact requirements.
+
+
+
 
