@@ -10,7 +10,7 @@ mini_venv/
 
 /Languages/*/bilingual_sentences/
 /Languages/*/padded_audio_dir/
-
+Post_to_Youtube/
 
 phrasebook_venv/
 temp/

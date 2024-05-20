@@ -111,8 +111,7 @@ REM set "background_image=C:\Users\tcham\Downloads\AfricanBackground.jpg"
 REM :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 set "local_language_name=yoruba"
-
-set "base_path=C:\Users\tcham\Downloads"
+set "base_path=C:\Users\tcham\Downloads" 
 set "phrasebook_path=%base_path%\Phrasebook%local_language_name%"
 set "environment=test"  ;;; set to "test" or "production"
 

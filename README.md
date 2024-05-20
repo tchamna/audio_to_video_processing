@@ -147,7 +147,7 @@ This Python script processes video files stored in chapter directories by groupi
 ## Features
 
 - **Naturally Sorts Videos**: Video files are sorted naturally to maintain logical order.
-- **Handles Special Cases**: Videos prefixed with "no_" are specially handled to maintain their relative order.
+- **Handles Special Cases**: Videos prefixed with "no_" are specially handled to maintain their relative order. You may not need this step depending on your project.
 - **Advertisement Insertion**: An advertisement video is inserted at a specified position within each chunk of videos.
 - **Customizable Chunk Size**: The number of videos in each chunk and the position of the advertisement within the chunk can be easily adjusted.
 
@@ -188,4 +188,6 @@ This script is designed for specific use cases and might need adjustments to fit
 
 
 
+## 4. Auto-Publish on YouTube (`5_Youtube_Scheduler.ipynb`)
 
+![alt text](Audio_Video_Pileline_Phrasebook_Resulam.png)
