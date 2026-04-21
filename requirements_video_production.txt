@@ -57,7 +57,7 @@ jupyterlab-pygments==0.1.2
 jupyterlab-widgets==3.0.5
 jupyterlab_server==2.25.3
 kaleido==0.2.1
-lxml==5.1.0
+lxml==6.1.0
 Markdown==3.4.1
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
