@@ -68,7 +68,7 @@ moviepy==1.0.3
 natsort==8.4.0
 nbclassic==0.5.5
 nbclient==0.9.0
-nbconvert==6.5.4
+nbconvert==7.17.1
 nbformat==5.9.2
 nest-asyncio==1.6.0
 notebook==7.1.2
