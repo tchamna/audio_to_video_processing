@@ -79,7 +79,7 @@ packaging==24.0
 pandocfilters==1.5.1
 parso==0.8.3
 pickleshare==0.7.5
-Pillow==9.4.0
+Pillow==12.2.0
 pipreqs==0.4.13
 platformdirs==4.2.0
 proglog==0.1.10
